@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.508 s <<< FAILURE! - in TestSuite
+test.java.Unidas.selecionarGrupoDeVeiculos  Time elapsed: 6.09 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (194, 962)
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-73-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de9e7e34331ddf06287d83e6b13dcb96, clickElement {id=b098760c-5220-4e99-ac6a-e5ac00d4525a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /tmp/.com.google.Chrome.91g42o}, goog:chromeOptions: {debuggerAddress: localhost:45015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:45015/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (de9e7e34331ddf06287d83e6b13dcb96)] -> xpath: (//span[@class='label'][normalize-space()='Pagar na retirada'])[1]]
+Session ID: de9e7e34331ddf06287d83e6b13dcb96
+	at test.java.Unidas.selecionarGrupoDeVeiculos(Unidas.java:98)
+
